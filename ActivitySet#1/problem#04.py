@@ -1,13 +1,8 @@
-hrs = input("Enter Hours:")
-h = float(hrs)
-rate = input("Enter Rate per hour: ")
-r = float(rate)
+h = float(input("Enter Hours:"))
+r = float(input("Enter Rate per hour: "))
 if h > 40 :
-    x = h - 40
-    h = 40
-    b = r * 1.50
-    m = h * r
-    n = x * b
+    m = 40*r
+    n = (h-40)*(r*1.50)
     print(m + n)
 
 else:
