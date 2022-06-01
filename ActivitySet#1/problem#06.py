@@ -1,4 +1,4 @@
-lar = 0
+lar = 0 
 sma = 9999
 while True:
     num = input("Enter a number? ")

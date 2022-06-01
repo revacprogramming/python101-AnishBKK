@@ -1,4 +1,4 @@
-# Functions
+# Functions 
 def computepay(h,r):
     if h > 40 :
         p1 = 40 * r
