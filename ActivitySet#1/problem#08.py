@@ -10,6 +10,6 @@ for line in fh:
     n = (float(line[l:l+7]))
     tot = float(tot + n)
     count = float(count + 1)
-
+  
 avg = float(tot/count)
 print("Average spam confidence:",avg)
