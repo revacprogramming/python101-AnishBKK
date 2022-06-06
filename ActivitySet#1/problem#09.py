@@ -7,4 +7,4 @@ for line in fh:
     if i not in lt:
         lt.append(i)
 lt.sort()
-print(lt)
+print(lt) 
