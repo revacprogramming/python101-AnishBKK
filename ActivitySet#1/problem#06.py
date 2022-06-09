@@ -14,4 +14,4 @@ while True:
       except :
        print("invalid type")
 print("Maximum", lar)
-print("Minimum", sma)
+print("Minimum", sma) 
