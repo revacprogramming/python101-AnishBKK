@@ -1,23 +1,24 @@
+#dict_ex9.4
 name = input("Enter file:")
 if len(name) < 1 : name = "mbox-short.txt"
 text = open(name)
 
-maxauthor = dict()
+maxauth = dict()
 
 for line in text:
     line.rstrip()
     if not line.startswith("From "): continue
     words = line.split()
-    maxauthor[words[1]] = maxauthor.get(words[1],0)+1
+    maxauth[words[1]] = maxauth.get(words[1],0)+1
 
-largest = None
-largest_author = None
+lar = None
+larauth = None
 
-for key in maxauthor:
-    if largest is None: largest = maxauthor[key]
+for key in maxauth:
+    if lar is None: largest = maxauth[key]
 
-    if largest < maxauthor[key]:
-        largest = maxauthor[key]
+    if largest < maxauth[key]:
+        largest = maxauth[key]
         largest_author = key
 
-print(largest_author, largest)
+print(larauth, lar)

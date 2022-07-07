@@ -1,3 +1,4 @@
+#loo.Iter_ex5.2
 lar = 0 
 sma = 9999
 while True:

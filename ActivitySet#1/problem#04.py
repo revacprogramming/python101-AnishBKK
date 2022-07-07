@@ -1,3 +1,4 @@
+#cond.exec_ex3.1
 h = float(input("Enter Hours:"))
 r = float(input("Enter Rate per hour: "))
 if h > 40 :

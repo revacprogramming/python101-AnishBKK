@@ -1,5 +1,5 @@
+#reg.exp_ex-reg.exp
 import re
-#numbers = []
 total = 0
 fname = input("Enter file:")
 if len(fname) < 1 : fname="regex_sum_42.txt"
